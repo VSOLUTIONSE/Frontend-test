@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Sofia_Sans, Courgette } from "@next/font/google";
+import { Sofia_Sans, Courgette } from "next/font/google";
 // import localFont from "@next/font/local";
 import "./globals.css";
 
@@ -47,7 +47,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${sofiaSans.variable} font-sans   ${courgette.variable} `}>
+      <body
+        className={` ${sofiaSans.variable} font-sans   ${courgette.variable} `}
+      >
         {children}
       </body>
     </html>
