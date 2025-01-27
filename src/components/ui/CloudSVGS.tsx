@@ -13,10 +13,10 @@ const CloudSVGS = () => {
       />{" "}
       <Image
         src="/img/home/svg/group1.svg"
-        width={265}
+        width={200}
         height={211}
         alt=""
-        className="mt-[1230px] sm:mt-[880px] sm:w-[80px] absolute right-0 "
+        className="mt-[1300px] sm:mt-[880px] sm:w-[80px] absolute right-0 "
       />
     </>
   );
