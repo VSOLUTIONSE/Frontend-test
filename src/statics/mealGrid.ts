@@ -1,4 +1,4 @@
-import { gridProp } from "@/types/home";
+// import { gridProp } from "@/types/home";
 export const foodGridData = [
     {
       id: 1,
