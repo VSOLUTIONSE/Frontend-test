@@ -7,10 +7,24 @@ export default {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      sm: {
+        max: "768px",
+      },
+      md: "768px",
+      lg: "976px",
+      xl: "1440px",
+    },
     extend: {
+      fontFamily: {
+        sans: ["var(--font-sofia-sans)"], // Default sans font
+        pangram: ["var(--font-pangram)"], // Pangram font
+        courgette: ["var(--font-courgette)"], // Courgette font
+      },
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "primary-orange": "#D87023",
+        "primary-green": "#009F79",
+        "primary-ash": "#858786"
       },
     },
   },
