@@ -9,16 +9,15 @@ const MealCaption = () => {
           <Icons
             src="/img/home/svg/star-white.svg"
             alt=""
-            className="w-[24px] h-[24px] "
+            className="w-[24px] sm:w-[10px] h-[24px] sm:h-[10px] "
           />
           <p className="text-center sm:text-[8px] tracking-[0.76px] uppercase">
-            
             Join the chow africa waitlist{" "}
           </p>
           <Icons
             src="/img/home/svg/star-white.svg"
             alt=""
-            className="w-[24px] h-[24px]"
+            className="w-[24px] sm:w-[10px] h-[24px] sm:h-[10px]"
           />
         </div>
         <div className="sm:hidden">
@@ -32,8 +31,8 @@ const MealCaption = () => {
         <div className="w-full md:hidden z-10 ">
           <p className="text-[32px] sm:max-w-[297px]  text-center leading-[46px] font-medium">
             Are you tired of <br />
-            eating the same dishes {" "}
-             <span className="bg-primary-orange pt-[2px] pb-[4px] text-white text-[22px] px-[16px] rounded-[20px] border-2 border-black">
+            eating the same dishes{" "}
+            <span className="bg-primary-orange pt-[2px] pb-[4px] text-white text-[22px] px-[16px] rounded-[20px] border-2 border-black">
               everyday?
             </span>
           </p>

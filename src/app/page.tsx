@@ -12,7 +12,7 @@ export default function Home() {
       <main className="relative flex mx-auto ">
         {/* Sidebar */}
         <SideBar socials={socials} navLinks={navLinks} />
-        <div className="flex mx-auto  flex-1 max-w-[1147px] h-full flex-col items-center  justify-center">
+        <div className="flex mx-auto pr-[48px]   flex-1  h-full flex-col items-center  justify-center">
           {/* Hero */}
           <HeroSection />
           {/* meal caption */}
@@ -21,11 +21,11 @@ export default function Home() {
         {/* cloud svgs */}
         <CloudSVGS />
       </main>
-      <div className="flex mx-auto w-full relative  h-full flex-col items-center  justify-center">
+      <div className="flex mx-auto  w-full relative justify-center sm:px-[24px]  h-full flex-col items-center  ">
         {/* Banner */}
         <MealBannerSection />
         {/* Footer */}
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </>
   );

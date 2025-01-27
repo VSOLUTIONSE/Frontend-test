@@ -10,8 +10,8 @@ export const HeroSection = () => {
   const handleJoinWaitList = useHandleWaitList();
 
   return (
-  <section className="md:mr-[70px] h-[935px]  relative touch-pan-x    md:w-full overflow-x-hidden  bg-[url('/img/home/circles.png')] mx-auto  bg-cover bg-no-repeat mt-[32px] bg-[#0E0E0E] rounded-[14px]  md:ml-[7px]">
-      <div className="flex w-full h-auto md:pt-[130px] sm:pt-[130px] mb-[67.48px]   flex-col items-center justify-center text-center mx-auto px-4">
+    <section className=" md:h-[935px]  min-h-screen max-w-[1247px]  md:w-full relative touch-pan-x  overflow-x-hidden  bg-[url('/img/home/circles.png')]  sm:mx-auto  bg-cover bg-no-repeat mt-[32px] bg-[#0E0E0E] rounded-[14px] md:ml-[7px]">
+      <div className="flex md:w-full  h-auto md:pt-[130px] sm:pt-[130px]  md:mb-[67.48px]  flex-col items-center justify-center text-center mx-auto px-4">
         <div className="flex items-center mb-[20px] text-[15px] font-[400px] leading-[24px] gap-x-[18px] justify-center">
           <Icons
             src="/img/home/svg/star.svg"
@@ -39,7 +39,6 @@ export const HeroSection = () => {
               src="/img/home/svg/asap-line.svg"
               width={270}
               height={6}
-             sizes="(max-width: 768px) 100px"
               alt="asap"
               className="right-0  sm:w-[109px] absolute"
             />
