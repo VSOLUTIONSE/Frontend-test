@@ -47,7 +47,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${sofiaSans.variable}    ${courgette.variable} `}>
+      <body className={` ${sofiaSans.variable} font-sans   ${courgette.variable} `}>
         {children}
       </body>
     </html>

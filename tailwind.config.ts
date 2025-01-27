@@ -18,7 +18,7 @@ export default {
     extend: {
       fontFamily: {
         sans: ["var(--font-sofia-sans)"], // Default sans font
-        pangram: ["var(--font-pangram)"], // Pangram font
+        // pangram: ["var(--font-pangram)"], // Pangram font
         courgette: ["var(--font-courgette)"], // Courgette font
       },
       colors: {
