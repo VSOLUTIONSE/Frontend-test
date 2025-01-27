@@ -32,7 +32,7 @@ export const HeroSection = () => {
 
           <h1 className="text-white mb-[24px] relative sm:text-[40px]  text-[96px] font-medium  leading-[86.4px] sm:leading-[35.75px] ">
             <span>Find chow,</span>{" "}
-            <span>
+            <span className="relative">
               <span className="text-primary-green relative font-courgette font-[400]  ">
                 Asap!
               </span>
