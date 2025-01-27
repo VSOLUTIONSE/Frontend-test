@@ -12,7 +12,7 @@ export default function Home() {
       <main className="relative flex mx-auto ">
         {/* Sidebar */}
         <SideBar socials={socials} navLinks={navLinks} />
-        <div className="flex mx-auto pr-[48px] w-full  flex-1  h-full flex-col items-center  justify-center">
+        <div className="flex mx-auto overflow-x-hidden w-full  flex-1  h-full flex-col items-center  justify-center">
           {/* Hero */}
           <HeroSection />
           {/* meal caption */}

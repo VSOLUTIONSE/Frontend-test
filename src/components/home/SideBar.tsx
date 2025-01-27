@@ -10,7 +10,7 @@ type sideBarProps = {
 };
 const SideBar = (props: sideBarProps) => {
   return (
-    <div className=" sm:hidden w-[238px]">
+    <div className="sm:hidden w-full max-w-[238px]">
       <div className="  bg-white text-black flex flex-col  ">
         {/* Logo */}
         <div className="pl-[51px] mt-[52px] mb-[54.9px]">
