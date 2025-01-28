@@ -3,7 +3,7 @@ import Icons from "../constants/Icons";
 
 const MealCaption = () => {
   return (
-    <div className="mx-auto flex  items-center  justify-center w-full sm:max-w-[305px]   md:max-w-[915px] md:mt-[198px] sm:mt-[64px]">
+    <div className="mx-auto z-10 flex  items-center  justify-center w-full sm:max-w-[305px]   md:max-w-[915px] md:mt-[198px] sm:mt-[64px]">
       <div className="flex  mx-auto flex-col w-full items-center justify-center">
         <div className="flex items-center mb-[24px] text-[15px] font-[400px] leading-[24px] gap-x-[18px] justify-center">
           <Icons

@@ -9,14 +9,14 @@ const CloudSVGS = () => {
         width={428}
         height={119}
         alt=""
-        className=" mt-[1328px] sm:mt-[900px]  md:block sm:w-[137px] absolute left-[53px] sm:left-0  "
+        className=" mt-[1328px] sm:mt-[965px]  md:block sm:w-[137px] absolute left-[53px] sm:left-0  "
       />{" "}
       <Image
         src="/img/home/svg/group1.svg"
         width={200}
         height={211}
         alt=""
-        className="mt-[1300px] sm:mt-[880px] sm:w-[80px] absolute right-0 "
+        className="mt-[1300px] sm:mt-[960px] sm:w-[55px] absolute right-0 "
       />
     </>
   );
