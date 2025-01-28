@@ -43,7 +43,9 @@ const Banner = () => {
               <span>🧅</span>
             </div>
 
-            <p className="text-[9.28px] tracking-[0.19px]">Exclude onions.</p>
+            <p className="text-[9.28px] sm:text-[5.98px] tracking-[0.19px]">
+              Exclude onions.
+            </p>
           </PopUpLayout>
         </div>
 
@@ -53,7 +55,7 @@ const Banner = () => {
               <span>🥩</span>
             </div>
 
-            <p className="text-[9.28px]  tracking-[0.19px]">
+            <p className="text-[9.28px] sm:text-[5.98px] tracking-[0.19px]">
               Must include turkey
             </p>
           </PopUpLayout>
