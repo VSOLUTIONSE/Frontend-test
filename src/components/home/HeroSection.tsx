@@ -58,6 +58,13 @@ export const HeroSection = () => {
             <Button onClick={handleJoinWaitList}>Join Waitlist</Button>
           </form>
         </div>
+        <Image
+          src="/img/home/svg/orange-ellipse.svg"
+          width={268}
+          height={268}
+          alt="asap"
+          className="left-0 bottom-20 sm:hidden  sm:w-[109px] absolute"
+        />
         <HeroCards />
       </div>
     </section>

@@ -6,16 +6,17 @@ type Props = {
   children: React.ReactNode;
   height?: string;
   width?: string;
+  color?: string
 };
 
 const Button = (props: Props) => {
-  const { onClick, height} = props;
+  const { onClick, height,color} = props;
   return (
     <button
       onClick={onClick}
-      className={`bg-primary-green shadow-lg border-2 cursor-pointer border-white text-white font-sans sm:tracking-[0.6px] uppercase sm:text-[12px] text-[16px] text-center leading-[24px] py-[5px] px-[16px] font-bold md:w-[200px] md:h-[${
+      className={`${color == "orange" && "bg-primary-orange"}  bg-primary-green  shadow-lg border-2 cursor-pointer  border-white text-white font-sans text-[16px] text-center md:leading-[24px] sm:tracking-[0.6px] uppercase sm:text-[12px] sm:py-[7px] sm:px-[16px] font-bold sm:h-auto  md:w-[200px] h-[${
         height ?? "56"
-      }px]  rounded-[56px] hover:bg-primary-green transition`}
+      }px]  rounded-[56px] hover:bg-primary-green`}
     >
       {props.children}
     </button>

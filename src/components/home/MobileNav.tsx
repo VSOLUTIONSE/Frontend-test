@@ -19,7 +19,7 @@ export const MobileNav = () => {
         </div>
 
         <div className="flex items-center justify-center gap-x-[24px]">
-          <Button onClick={handleJoinWaitList}>Join Waitlist</Button>
+          <Button color="orange" onClick={handleJoinWaitList}>Join Waitlist</Button>
 
           <Icons
             src="/img/home/svg/menu-bar.svg"
