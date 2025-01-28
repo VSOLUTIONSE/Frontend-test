@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Sofia_Sans, Courgette } from "next/font/google";
-// import localFont from "@next/font/local";
+import localFont from "next/font/local";
 import "./globals.css";
 
 // Load Sofia Sans from Google Fonts
@@ -11,22 +11,22 @@ const sofiaSans = Sofia_Sans({
 });
 
 // Load Pangram as a local font
-// const pangram = localFont({
-//   src: [
-//     {
-//       path: "../..public/fonts/Pangram-Regular.otf",
-//       weight: "400",
-//       style: "normal",
-//     },
-//     {
-//       path: "../..public/fonts/Pangram-Bold.otf",
-//       weight: "600",
-//       style: "normal",
-//     },
-//   ],
-//   variable: "--font-pangram",
-//   display: "swap",
-// });
+const pangram = localFont({
+  src: [
+    {
+      path: "../../public/fonts/Pangram-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/fonts/Pangram-Bold.otf",
+      weight: "600",
+      style: "normal",
+    },
+  ],
+  variable: "--font-pangram",
+  display: "swap",
+});
 
 // Load Courgette from Google Fonts
 const courgette = Courgette({
@@ -48,7 +48,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={` ${sofiaSans.variable} font-sans   ${courgette.variable} `}
+        className={` ${sofiaSans.variable} ${pangram.variable} font-sans   ${courgette.variable} `}
       >
         {children}
       </body>

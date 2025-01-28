@@ -89,7 +89,7 @@ const HeroCards = () => {
           width={255}
           height={300}
           // sizes="(max-width: 768px) 200px"
-          className="object-contain sm:w-[120px] sm:mt-[32rem] relative z-20"
+          className="object-contain sm:w-[120px] sm:mt-[32rem] relative "
         />
         <div className="md:min-w-[244.65px] sm:min-w-[110.61px] sm:max-h-[150px]  max-h-[289px]  mt-[107px] sm:mt-[34.5rem]  bg-white rounded-[13.85px] sm:rounded-[4.85px] shadow-lg ">
           <div className="bg-[#F4F3E8] py-[10.5px] mx-[7.5px] mt-[7.5px] flex items-center justify-center rounded-xl sm:rounded-[6px] md:h-[173.16px]">
