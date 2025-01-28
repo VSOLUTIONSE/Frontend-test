@@ -19,7 +19,7 @@ export const HeroSection = () => {
               alt=""
               className="w-[24px] sm:w-[10px] h-[24px] sm:h-[10px] "
             />
-            <p className="text-center sm:text-[8px] tracking-[0.76px] uppercase text-white">
+            <p className="text-center font-pangram sm:text-[8px] tracking-[0.76px] uppercase text-white">
               {" "}
               Join the chow africa waitlist{" "}
             </p>
@@ -45,7 +45,7 @@ export const HeroSection = () => {
               />
             </span>
           </h1>
-          <p className="text-white sm:text-[14px] sm:max-w-[269px] max-w-[543px] mb-[40px]  leading-[30px] sm:leading-[21px] text-[20px] font-sans font-normal">
+          <p className="text-white sm:text-[14px] sm:max-w-[269px]  max-w-[543px] mb-[40px]  leading-[30px] sm:leading-[21px] text-[20px] font-sans font-normal">
             The patient dog eats left overs. Be the first to know when we
             launch. Join our Waitlist <span className="sm:hidden">😎</span>
           </p>

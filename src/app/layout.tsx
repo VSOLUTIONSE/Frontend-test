@@ -19,10 +19,16 @@ const pangram = localFont({
       style: "normal",
     },
     {
-      path: "../../public/fonts/Pangram-Bold.otf",
-      weight: "600",
+      path: "../../public/fonts/Pangram-Medium.otf",
+      weight: "500",
       style: "normal",
     },
+    {
+      path: "../../public/fonts/Pangram-Bold.otf",
+      weight: "700",
+      style: "normal",
+    },
+    
   ],
   variable: "--font-pangram",
   display: "swap",

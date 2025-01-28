@@ -7,7 +7,7 @@ const Footer = () => {
   const handleJoinWaitList = useHandleWaitList();
 
   return (
-    <div className="flex md:max-w-[1140px] w-full mx-auto mt-[59px] shadow-lg md:mr-[96px] ">
+    <div className="flex font-pangram md:max-w-[1140px] w-full mx-auto mt-[59px] shadow-lg md:mr-[96px] ">
       <div className="md:h-[180px]   md:pl-[70px] sm:pt-[56px] sm:pb-[32px] sm:pl-[32px] sm:pr-[37px] md:pr-[42px]  mx-auto  flex sm:flex-col md:gap-x-[246px] sm:gap-y-[64px]  justify-center items-center">
         <div className="text-[32px] sm:w-[237px] font-bold w-full   leading-[42px] md:w-[585px]">
           Sigup to{" "}

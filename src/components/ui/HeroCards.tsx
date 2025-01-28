@@ -3,7 +3,7 @@ import React from "react";
 
 const HeroCards = () => {
   return (
-    <div className="absolute bottom-0 touch-auto sm:-left-[9rem] md:-left-14 w-full  md:w-full">
+    <div className=" font-pangram bottom-0 touch-auto sm:-left-[9rem] md:-left-14 w-full  md:w-full">
       <div className="flex w-full gap-x-[13.93px] sm:gap-x-[5.73px]">
         <div className="md:min-w-[260.65px] sm:min-w-[110.61px] sm:max-h-[150px]  max-h-[289px]  mt-[107px] sm:mt-[34.5rem]  bg-white rounded-[13.85px] sm:rounded-[4.85px] shadow-lg ">
           <div className="bg-[#F4F3E8] py-[10.5px] mx-[7.5px] mt-[7.5px] flex items-center justify-center rounded-xl sm:rounded-[6px] md:h-[173.16px]">

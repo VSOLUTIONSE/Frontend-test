@@ -11,7 +11,7 @@ const MealCaption = () => {
             alt=""
             className="w-[24px] sm:w-[10px] h-[24px] sm:h-[10px] "
           />
-          <p className="text-center sm:text-[8px] tracking-[0.76px] uppercase">
+          <p className="text-center font-pangram sm:text-[8px] tracking-[0.76px] uppercase">
             Join the chow africa waitlist{" "}
           </p>
           <Icons
@@ -21,7 +21,7 @@ const MealCaption = () => {
           />
         </div>
         <div className="sm:hidden">
-          <h1 className="text-[64px] leading-[72px] font-medium">
+          <h1 className="text-[64px] font-pangram leading-[72px] font-medium">
             tired of eating the
           </h1>
           <div className="rounded-[40px] flex font-sans text-white text-[40px] leading-[64px] items-center justify-center text-center h-[74px] bg-primary-orange max-w-[614px] border-4 border-black">
@@ -29,7 +29,7 @@ const MealCaption = () => {
           </div>
         </div>
         <div className="w-full md:hidden z-10 ">
-          <p className="text-[32px] sm:max-w-[297px]  text-center leading-[46px] font-medium">
+          <p className="text-[32px] sm:max-w-[297px] font-pangram  text-center leading-[46px] font-medium">
             Are you tired of <br />
             eating the same dishes{" "}
             <span className="bg-primary-orange pt-[2px] pb-[4px] text-white text-[22px] px-[16px] rounded-[20px] border-2 border-black">
