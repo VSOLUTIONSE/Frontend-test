@@ -5,6 +5,7 @@ import MealCaption from "@/components/home/MealCaption";
 import MealBannerSection from "@/components/home/MealBannerSection";
 import CloudSVGS from "@/components/ui/CloudSVGS";
 import Footer from "@/components/home/Footer";
+import { MobileNav } from "@/components/home/MobileNav";
 
 export default function Home() {
   return (
@@ -13,6 +14,8 @@ export default function Home() {
         {/* Sidebar */}
         <SideBar socials={socials} navLinks={navLinks} />
         <div className="flex mx-auto overflow-x-hidden w-full  flex-1  h-full flex-col items-center  justify-center">
+          {/* Nav Bar */}
+          <MobileNav/>
           {/* Hero */}
           <HeroSection />
           {/* meal caption */}

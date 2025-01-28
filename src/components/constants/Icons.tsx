@@ -16,7 +16,7 @@ const Icons = (props: IconsProps) => {
         src={src}
         alt={alt ?? ""}
         fill
-        className={`h-full w-full rounded-[20px] object-cover`}
+        className={`h-full w-full  object-cover`}
       />
     </div>
   );
