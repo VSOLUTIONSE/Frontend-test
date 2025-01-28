@@ -10,8 +10,8 @@ export const HeroSection = () => {
   const handleJoinWaitList = useHandleWaitList();
 
   return (
-    <section className="w-full overflow-x-hidden md:pr-[48px] sm:px-[23px]">
-      <div className="md:h-[935px]  min-h-screen sm:h-[759px]  relative   overflow-x-hidden  bg-[url('/img/home/circles.png')]  sm:mx-auto  bg-cover bg-no-repeat mt-[32px] bg-[#0E0E0E] rounded-[14px] md:ml-[7px]">
+    <section className="w-full touch-auto  md:pr-[48px] sm:px-[23px]">
+      <div className="md:h-[935px]  min-h-screen sm:h-[759px]  relative   overflow-x-hidden  bg-[url('/img/home/circles.png')]  sm:mx-auto  bg-cover bg-no-repeat mt-[32px] bg-[#0E0E0E] rounded-[14px] md:ml-[7px] ">
         <div className="flex md:w-full h-auto md:pt-[130px] sm:pt-[130px]  md:mb-[67.48px]  flex-col items-center justify-center text-center mx-auto px-4">
           <div className="flex items-center mb-[20px] text-[15px] font-[400px] leading-[24px] gap-x-[18px] justify-center">
             <Icons

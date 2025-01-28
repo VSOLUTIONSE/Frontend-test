@@ -10,22 +10,37 @@ const FoodGridGradient = () => {
             key={meal.id}
             className={` ${
               (idx === 0 || idx == 4 || idx == 8) && "z-20 !opacity-100"
-            } shadow-lg opacity-60  bg-white rounded-[7.65px] `}
+            } shadow-lg opacity-60 sm:min-w-[85.9px]  bg-white rounded-[7.65px] `}
           >
             {/* Image Section */}
             <div className="bg-[#F4F3E8] max-w-[127.79px]  mx-[4.13px] mt-[4.13px] px-[20.5px] py-[14.37px] flex items-center justify-center rounded-lg ">
               <Image
                 src={meal.image}
                 alt={meal.title}
-                className="object-contain sm:w-[170px]"
+                className="object-contain sm:hidden sm:w-[170px]"
                 width={idx == 4 || idx == 8 ? 61.24 : 117.31}
                 height={idx == 4 || idx == 8 ? 61.24 : 117.31}
               />
+              <Image
+                src={
+                  idx == 4
+                    ? "/img/home/naija-spp.png"
+                    : idx == 8
+                    ? "/img/home/naija-spp.png"
+                    : meal.image
+                }
+                alt={meal.title}
+                className="md:hidden sm:w-[140px]"
+                width={117.31}
+                height={117.31}
+              />
             </div>
             {/* Content Section */}
-            <div className="w-full max-w-[108.56px] sm:max-w-[69.55px]  mt-[14.37px] mb-[10.11px] ml-[11.32px]">
-              <h3 className="text-[7.65px] sm:text-[4.88px]  font-bold">{meal.title}</h3>
-              <p className="bg-[#D6D5CA] mb-[6.92px] mt-[4.62px] w-fit text-[3.93px] p-[3.46px] rounded-[13.85px]  tracking-[1.74px]">
+            <div className="w-full max-w-[108.56px] sm:max-w-[69.55px] sm:mt-[4.94px]  mt-[14.37px] mb-[10.11px] ml-[11.32px]">
+              <h3 className="text-[7.65px] sm:text-[4.88px]  font-bold">
+                {meal.title}
+              </h3>
+              <p className="bg-[#D6D5CA] mb-[6.92px] sm:mb-[2.44px] mt-[4.62px] w-fit text-[3.93px] p-[3.46px] sm:p-[1.46px] text-center rounded-[13.85px] sm:text-[2.44px]   sm:tracking-[0.74px]">
                 {meal.category}
               </p>
               <p className="flex gap-x-[6.93px] text-primary-ash items-center font-sans text-[4.08px]">
