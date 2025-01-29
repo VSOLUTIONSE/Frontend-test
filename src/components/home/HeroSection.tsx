@@ -1,10 +1,11 @@
 "use client";
 import React from "react";
-import Button from "../constants/Button";
+// import Button from "../constants/Button";
 import Icons from "../constants/Icons";
 import HeroCards from "../ui/HeroCards";
 import { useHandleWaitList } from "@/hooks/useHandleWaitList";
 import Image from "next/image";
+import ButtonSecondary from "../constants/ButtonSecondary";
 
 export const HeroSection = () => {
   const handleJoinWaitList = useHandleWaitList();
@@ -55,7 +56,9 @@ export const HeroSection = () => {
               placeholder="Enter your email"
               className="xl:flex-1[] font-sans placeholder:text-[#1A1A1A] w-full  h-[56px] pl-[17px] max-w-[327px] border border-gray-700 rounded-[12px] focus:outline-none"
             />
-            <Button onClick={handleJoinWaitList}>Join Waitlist</Button>
+            <ButtonSecondary onClick={handleJoinWaitList}>
+              Join Waitlist
+            </ButtonSecondary>
           </form>
         </div>
         <Image
