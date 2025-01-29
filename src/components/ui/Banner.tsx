@@ -13,13 +13,13 @@ const Banner = () => {
           className="relative w-full h-auto "
         />
       </div>
-      <div className="absolute sm:top-[65%] md:top-[25%]  right-6">
+      <div className="absolute sm:top-[65%] md:top-[25%] sm:right-0  right-6">
         <PopUpLayout hori={false}>
           <div className="w-5 flex items-center h-5 text-[9px] text-center mt-[4.37px]  rounded-full bg-[#77441E]">
             <span className="ml-1">💵</span>
           </div>
 
-          <p className="text-[9.28px] sm:text-[5.98px] tracking-[0.19px]">
+          <p className="text-[9.28px] sm:text-[5.98px] tracking-[1.19px]">
             You can buy all for <span className="text-[#01FFC2]">N2,500</span>
             at Yaba
           </p>
@@ -32,7 +32,7 @@ const Banner = () => {
               <span>👍🏽</span>
             </div>
 
-            <p className="text-[9.28px] sm:text-[5.98px] tracking-[0.19px]">
+            <p className="text-[9.28px] sm:text-[5.98px] tracking-[1.19px]">
               Picked by 314 people today
             </p>
           </PopUpLayout>
@@ -43,7 +43,7 @@ const Banner = () => {
               <span>🧅</span>
             </div>
 
-            <p className="text-[9.28px] sm:text-[5.98px] tracking-[0.19px]">
+            <p className="text-[9.28px] sm:text-[5.98px] tracking-[1.19px]">
               Exclude onions.
             </p>
           </PopUpLayout>
@@ -55,7 +55,7 @@ const Banner = () => {
               <span>🥩</span>
             </div>
 
-            <p className="text-[9.28px] sm:text-[5.98px] tracking-[0.19px]">
+            <p className="text-[9.28px] sm:text-[5.98px] tracking-[1.19px]">
               Must include turkey
             </p>
           </PopUpLayout>

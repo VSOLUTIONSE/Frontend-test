@@ -5,9 +5,9 @@ type Props = {
 };
 export const PopUpLayout = (props: PropsWithChildren<Props>) => {
   return (
-    <div className="flex h-[39px] font-sans justify-center items-center">
+    <div className="flex w-full h-[39px] font-sans justify-center items-center">
       {props.hori ? (
-        <div className="flex border-2 max-w-[175px]  gap-x-[8px] px-[8px]    font-bold  sm:py-[5px] py-[10px] bg-primary-green rounded-[7px] border-white justify-center items-center ">
+        <div className="flex border-2 sm:min-w-[135px] min-w-[180px]   gap-x-[8px] px-[8px]    font-bold  sm:py-[5px] py-[10px] bg-primary-green rounded-[7px] border-white  items-center ">
           {props.children}
         </div>
       ) : (

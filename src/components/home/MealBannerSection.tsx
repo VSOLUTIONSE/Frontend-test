@@ -11,7 +11,7 @@ const MealBannerSection = () => {
           src="/img/home/svg/and.svg"
           className="absolute z-10 -left-7 sm:-left-16 sm:h-[42.03px] top-[54.4px]"
           alt="meal-banner"
-          width={200}
+          width={200} 
           height={65}
         />
         <FoodGridGradient />

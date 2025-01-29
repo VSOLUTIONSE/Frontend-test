@@ -16,7 +16,7 @@ const Button = (props: Props) => {
       onClick={onClick}
       className={`${color == "orange" && "bg-primary-orange"}  bg-primary-green  shadow-lg border-2 cursor-pointer  border-white text-white font-sans text-[16px] text-center md:leading-[24px] sm:tracking-[0.6px] uppercase sm:text-[12px] sm:py-[7px] sm:px-[16px] font-bold sm:h-auto  md:w-[200px] h-[${
         height ?? "56"
-      }px]  rounded-[56px] hover:bg-primary-green`}
+      }px]  rounded-[56px] `}
     >
       {props.children}
     </button>
